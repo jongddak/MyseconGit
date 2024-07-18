@@ -12,6 +12,13 @@ namespace GitTest
         public int level;
     
     }
+    struct Monster
+    {
+
+        public string Name;
+        public int hp;
+
+    }
 
 
     internal class Program
@@ -19,6 +26,7 @@ namespace GitTest
         static void Main(string[] args)
         {
             Player player = new Player() { Name = "용사", level = 1; };   
+            Monster monster = new Monster() { Name="슬라임", hp = 1 };
             
         }
     }
