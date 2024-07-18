@@ -21,6 +21,12 @@ namespace GitTest
     }
 
 
+    struct Item 
+    {
+        public string Name;
+        public int level;
+    }
+
     internal class Program
     {
         static void Main(string[] args)
