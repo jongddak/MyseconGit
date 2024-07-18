@@ -34,6 +34,7 @@ namespace GitTest
             Player player = new Player() { Name = "용사", level = 1 };
             Monster monster = new Monster() { Name = "슬라임", hp = 1 };
             Item item = new Item() { Name = "검", Equipmentlevel = 1 };
+            Item item = new Item() { Name = "방패", Equipmentlevel = 1 };
         }
     }
 }
