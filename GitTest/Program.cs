@@ -6,12 +6,20 @@ using System.Threading.Tasks;
 
 namespace GitTest
 {
+    struct Player {
+
+        public string Name;
+        public int level;
+    
+    }
+
+
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hi");
-            Console.WriteLine("hi");
+            Player player = new Player() { Name = "용사", level = 1; };   
+            
         }
     }
 }
